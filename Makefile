@@ -1,39 +1,40 @@
 NAME		=	safecracker
 
 CC			=	clang
-CFLAGS		=	-Wall -Werror -Wextra
-XFLAGS		=	#-flags -for -X
-FLAGS		=	$(CFLAGS) $(XFLAGS)
+FLAGS		=	-Wall -Werror -Wextra
 
 SRC_DIR		=	src
-SRC_FILE	=	main.c #TODO
+SRC_FILE	=	main.c 
 SRCS		=	$(addprefix $(SRC_DIR)/, $(SRC_FILE))
 
 OBJ_DIR		=	obj
 OBJ_FILE	=	$(SRC_FILE:.c=.o)
 OBJS		=	$(addprefix $(OBJ_DIR)/, $(OBJ_FILE))
 
+LIBFT_DIR	=	libft
+LIBFT_LIB	=	libft.a
+LIBFT_INC	=	inc
+LIBFT		=	$(LIBFT_DIR)/$(LIBFT_LIB)
+
 INC_DIR		=	-I $(LIBFT_DIR)/$(LIBFT_INC) -I inc
+
 
 .PHONY: all clean fclean re
 
-all: $(NAME)
+all: $(LIBFT) $(NAME)
 
 $(NAME): $(SRCS) | $(OBJS)
-	$(CC) $(FLAGS) $(OBJS) $(INC_DIR) -o $(NAME) #WARNING: will not compile on linux unless the library is at the end of the line
+	$(CC) $(FLAGS) $(OBJS) $(INC_DIR) -o $(NAME) $(LIBFT)
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c | $(OBJ_DIR)
 	@$(CC) -c $^ $(CFLAGS) $(INC_DIR) -o $@
 
-LIBFT_DIR	=	libft
-LIBFT_LIB	=	libft.a #assuming project is named the same
-LIBFT_INC	=	#includes directory, if applicable
-LIBFT		=	$(LIBFT_DIR)/$(LIBFT_LIB)
-
 clean:
+	@$(MAKE) clean -C $(LIBFT_DIR)
 	@rm -rf $(OBJ_DIR)
 
 fclean: clean
+	@(MAKE) fclean -C $(LIBFT_DIR)
 	@rm -f $(NAME)
 
 re: fclean all
