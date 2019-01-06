@@ -4,7 +4,11 @@ CC			=	clang
 FLAGS		=	-Wall -Werror -Wextra
 
 SRC_DIR		=	src
-SRC_FILE	=	main.c 
+SRC_FILE	=	main.c \
+				crack.c \
+				print_results.c \
+				read_file.c \
+				t_layer.c 
 SRCS		=	$(addprefix $(SRC_DIR)/, $(SRC_FILE))
 
 OBJ_DIR		=	obj
@@ -34,7 +38,6 @@ clean:
 	@rm -rf $(OBJ_DIR)
 
 fclean: clean
-	@(MAKE) fclean -C $(LIBFT_DIR)
 	@rm -f $(NAME)
 
 re: fclean all
