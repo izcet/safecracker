@@ -25,6 +25,8 @@ int			main(int argc, char **argv)
     err = crack(safe, columns, target);
     if (!err)
         print_results(safe, columns);
+    else
+        ft_putendl("No solution :(");
 
     cleanup(safe);
    
