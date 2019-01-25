@@ -1,0 +1,193 @@
+ 6  14   6  17   8   5   8  18  16  17  19  20   8  14  17   5  
+11   0   3  20   8  19  10  15  14  12  11  13   8   0  12  19  
+20  10  20   0   1  11  12   8   0   8   8   8   1  10   8  11  
+13  10  13   9  18   8  10   8  10   9   7   6  18  10   9   8  
+ 0  16   8   4  15   7  10   1  10   4   5   3  15  16   4   7  
+
+Layer rotation: 14
+Layer rotation: 14
+Layer rotation: 13
+Layer rotation: 1
+Layer rotation: 0
+
+14   6  17   8   5   8  18  16  17  19  20   8  14  17   5   6  
+ 0   3  20   8  19  10  15  14  12  11  13   8   0  12  19  11  
+10  20   0   1  11  12   8   0   8   8   8   1  10   8  11  20  
+10  13   9  18   8  10   8  10   9   7   6  18  10   9   8  13  
+16   8   4  15   7  10   1  10   4   5   3  15  16   4   7   0  
+
+Layer rotation: 15
+Layer rotation: 15
+Layer rotation: 14
+Layer rotation: 2
+Layer rotation: 1
+
+ 6  17   8   5   8  18  16  17  19  20   8  14  17   5   6  14  
+ 3  20   8  19  10  15  14  12  11  13   8   0  12  19  11   0  
+20   0   1  11  12   8   0   8   8   8   1  10   8  11  20  10  
+13   9  18   8  10   8  10   9   7   6  18  10   9   8  13  10  
+ 8   4  15   7  10   1  10   4   5   3  15  16   4   7   0  16  
+
+Layer rotation: 0
+Layer rotation: 0
+Layer rotation: 15
+Layer rotation: 3
+Layer rotation: 2
+
+17   8   5   8  18  16  17  19  20   8  14  17   5   6  14   6  
+20   8  19  10  15  14  12  11  13   8   0  12  19  11   0   3  
+ 0   1  11  12   8   0   8   8   8   1  10   8  11  20  10  20  
+ 9  18   8  10   8  10   9   7   6  18  10   9   8  13  10  13  
+ 4  15   7  10   1  10   4   5   3  15  16   4   7   0  16   8  
+
+Layer rotation: 1
+Layer rotation: 1
+Layer rotation: 0
+Layer rotation: 4
+Layer rotation: 3
+
+ 8   5   8  18  16  17  19  20   8  14  17   5   6  14   6  17  
+ 8  19  10  15  14  12  11  13   8   0  12  19  11   0   3  20  
+ 1  11  12   8   0   8   8   8   1  10   8  11  20  10  20   0  
+18   8  10   8  10   9   7   6  18  10   9   8  13  10  13   9  
+15   7  10   1  10   4   5   3  15  16   4   7   0  16   8   4  
+
+Layer rotation: 2
+Layer rotation: 2
+Layer rotation: 1
+Layer rotation: 5
+Layer rotation: 4
+
+ 5   8  18  16  17  19  20   8  14  17   5   6  14   6  17   8  
+19  10  15  14  12  11  13   8   0  12  19  11   0   3  20   8  
+11  12   8   0   8   8   8   1  10   8  11  20  10  20   0   1  
+ 8  10   8  10   9   7   6  18  10   9   8  13  10  13   9  18  
+ 7  10   1  10   4   5   3  15  16   4   7   0  16   8   4  15  
+
+Layer rotation: 3
+Layer rotation: 3
+Layer rotation: 2
+Layer rotation: 6
+Layer rotation: 5
+
+ 8  18  16  17  19  20   8  14  17   5   6  14   6  17   8   5  
+10  15  14  12  11  13   8   0  12  19  11   0   3  20   8  19  
+12   8   0   8   8   8   1  10   8  11  20  10  20   0   1  11  
+10   8  10   9   7   6  18  10   9   8  13  10  13   9  18   8  
+10   1  10   4   5   3  15  16   4   7   0  16   8   4  15   7  
+
+Layer rotation: 4
+Layer rotation: 4
+Layer rotation: 3
+Layer rotation: 7
+Layer rotation: 6
+
+18  16  17  19  20   8  14  17   5   6  14   6  17   8   5   8  
+15  14  12  11  13   8   0  12  19  11   0   3  20   8  19  10  
+ 8   0   8   8   8   1  10   8  11  20  10  20   0   1  11  12  
+ 8  10   9   7   6  18  10   9   8  13  10  13   9  18   8  10  
+ 1  10   4   5   3  15  16   4   7   0  16   8   4  15   7  10  
+
+Layer rotation: 5
+Layer rotation: 5
+Layer rotation: 4
+Layer rotation: 8
+Layer rotation: 7
+
+16  17  19  20   8  14  17   5   6  14   6  17   8   5   8  18  
+14  12  11  13   8   0  12  19  11   0   3  20   8  19  10  15  
+ 0   8   8   8   1  10   8  11  20  10  20   0   1  11  12   8  
+10   9   7   6  18  10   9   8  13  10  13   9  18   8  10   8  
+10   4   5   3  15  16   4   7   0  16   8   4  15   7  10   1  
+
+Layer rotation: 6
+Layer rotation: 6
+Layer rotation: 5
+Layer rotation: 9
+Layer rotation: 8
+
+17  19  20   8  14  17   5   6  14   6  17   8   5   8  18  16  
+12  11  13   8   0  12  19  11   0   3  20   8  19  10  15  14  
+ 8   8   8   1  10   8  11  20  10  20   0   1  11  12   8   0  
+ 9   7   6  18  10   9   8  13  10  13   9  18   8  10   8  10  
+ 4   5   3  15  16   4   7   0  16   8   4  15   7  10   1  10  
+
+Layer rotation: 7
+Layer rotation: 7
+Layer rotation: 6
+Layer rotation: 10
+Layer rotation: 9
+
+19  20   8  14  17   5   6  14   6  17   8   5   8  18  16  17  
+11  13   8   0  12  19  11   0   3  20   8  19  10  15  14  12  
+ 8   8   1  10   8  11  20  10  20   0   1  11  12   8   0   8  
+ 7   6  18  10   9   8  13  10  13   9  18   8  10   8  10   9  
+ 5   3  15  16   4   7   0  16   8   4  15   7  10   1  10   4  
+
+Layer rotation: 8
+Layer rotation: 8
+Layer rotation: 7
+Layer rotation: 11
+Layer rotation: 10
+
+20   8  14  17   5   6  14   6  17   8   5   8  18  16  17  19  
+13   8   0  12  19  11   0   3  20   8  19  10  15  14  12  11  
+ 8   1  10   8  11  20  10  20   0   1  11  12   8   0   8   8  
+ 6  18  10   9   8  13  10  13   9  18   8  10   8  10   9   7  
+ 3  15  16   4   7   0  16   8   4  15   7  10   1  10   4   5  
+
+Layer rotation: 9
+Layer rotation: 9
+Layer rotation: 8
+Layer rotation: 12
+Layer rotation: 11
+
+ 8  14  17   5   6  14   6  17   8   5   8  18  16  17  19  20  
+ 8   0  12  19  11   0   3  20   8  19  10  15  14  12  11  13  
+ 1  10   8  11  20  10  20   0   1  11  12   8   0   8   8   8  
+18  10   9   8  13  10  13   9  18   8  10   8  10   9   7   6  
+15  16   4   7   0  16   8   4  15   7  10   1  10   4   5   3  
+
+Layer rotation: 10
+Layer rotation: 10
+Layer rotation: 9
+Layer rotation: 13
+Layer rotation: 12
+
+14  17   5   6  14   6  17   8   5   8  18  16  17  19  20   8  
+ 0  12  19  11   0   3  20   8  19  10  15  14  12  11  13   8  
+10   8  11  20  10  20   0   1  11  12   8   0   8   8   8   1  
+10   9   8  13  10  13   9  18   8  10   8  10   9   7   6  18  
+16   4   7   0  16   8   4  15   7  10   1  10   4   5   3  15  
+
+Layer rotation: 11
+Layer rotation: 11
+Layer rotation: 10
+Layer rotation: 14
+Layer rotation: 13
+
+17   5   6  14   6  17   8   5   8  18  16  17  19  20   8  14  
+12  19  11   0   3  20   8  19  10  15  14  12  11  13   8   0  
+ 8  11  20  10  20   0   1  11  12   8   0   8   8   8   1  10  
+ 9   8  13  10  13   9  18   8  10   8  10   9   7   6  18  10  
+ 4   7   0  16   8   4  15   7  10   1  10   4   5   3  15  16  
+
+Layer rotation: 12
+Layer rotation: 12
+Layer rotation: 11
+Layer rotation: 15
+Layer rotation: 14
+
+ 5   6  14   6  17   8   5   8  18  16  17  19  20   8  14  17  
+19  11   0   3  20   8  19  10  15  14  12  11  13   8   0  12  
+11  20  10  20   0   1  11  12   8   0   8   8   8   1  10   8  
+ 8  13  10  13   9  18   8  10   8  10   9   7   6  18  10   9  
+ 7   0  16   8   4  15   7  10   1  10   4   5   3  15  16   4  
+
+Layer rotation: 13
+Layer rotation: 13
+Layer rotation: 12
+Layer rotation: 0
+Layer rotation: 15
+
+Total number of solutions: 16.

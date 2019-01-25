@@ -12,6 +12,7 @@ typedef struct      s_layer
 
 int     read_file(char *filename, t_layer **safe, int *columns, int *target);
 int     crack(t_layer *safe, int columns, int target);
+int     rotate(t_layer *safe, int columns);
 void    print_results(t_layer *safe, int columns);
 
 t_layer *new_layer(int cols, t_layer *next);

@@ -14,6 +14,7 @@ int			main(int argc, char **argv)
     int     columns;
     int     target;
     int     err;
+    int     num_solutions;
 
     if (argc != 2)
         return (usage(argv[0]));
@@ -22,11 +23,22 @@ int			main(int argc, char **argv)
     if (err)
         return (err);
 
-    err = crack(safe, columns, target);
-    if (!err)
-        print_results(safe, columns);
-    else
-        ft_putendl("No solution :(");
+    err = 0;
+    num_solutions = 0;
+    while (err != 1) {
+        err = crack(safe, columns, target);
+        if (!err)
+        {
+            print_results(safe, columns);
+            num_solutions++;
+        }
+        rotate(safe, columns);
+    }
+    ft_putstr("Total number of solutions: ");
+    ft_putnbr(num_solutions);
+    ft_putendl(".");
+    //else
+    //    ft_putendl("No solution :(");
 
     cleanup(safe);
    

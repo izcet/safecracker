@@ -45,5 +45,5 @@ void        print_results(t_layer *safe, int columns)
         ft_putnbr(safe->rotation_offset);
         safe = safe->next;
     }
-    ft_putchar('\n');
+    ft_putendl("\n");
 }
